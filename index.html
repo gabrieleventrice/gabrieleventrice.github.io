@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gabriele Ventrice - Videogame Programmer Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/js/bulma-extensions.min.js"></script>
+    <link rel="stylesheet" href="./css/showcase.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/css/bulma-extensions.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+
+    </script>
+    <link rel="stylesheet" href="CSS.css">
+    <style>
+      .langFlag {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation-duration: 0.1s;
+        animation-fill-mode: forwards;  
+        animation-name: hoveringOut;
+      }
+
+      .langFlag:hover {
+        animation-duration: 0.1s;
+        animation-fill-mode: forwards;  
+        animation-name: hoveringIn;
+        
+      }
+
+      @keyframes hoveringIn
+      {
+        from
+        {
+          border-radius: 0%;
+        }
+        to
+        {
+          border-radius: 10%;
+        }
+      }
+      @keyframes hoveringOut
+      {
+        from
+        {
+          border-radius: 10%;
+        }
+        to
+        {
+          border-radius: 1%;
+        }
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <section class="hero-is-primary">
+       <!-- Hero content: will be in the middle -->
+        <div class="hero-body bd-main-container container">
+         <div class="container center">
+        
+         </div>
+         <br>
+         <div class="container has-text-centered fade">
+           <h1 class="title">
+             Gabriele Ventrice
+           </h1>
+           <h2 class="subtitle">
+             Videogame Programmer
+           </h2>
+         </div>
+  
+         <hr class="fade">
+  
+         <div class="columns is-multiline" id="tecnicismi"> 
+            <div class="column is-6 right-image " data-aos="fade-right" style="padding: 10.75rem;"> 
+                <a href="./en-US/index.html">
+                    <img class="is-rounded" src="https://andrefrancavilla.github.io/en-US.png" alt=""/> 
+                </a>
+            </div>                         
+            <div class="column is-6 right-image " data-aos="fade-left" style="padding: 10.75rem;"> 
+                <a href="./it-IT/index.html">
+                    <img class="is-rounded" src="https://andrefrancavilla.github.io/it-IT.png" alt=""/> 
+                </a>
+            </div>                         
+                    
+              </a>
+            </div>         
+         </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+
+<!--
+References:
+  https://bulma.io/documentation/layout/hero/
+  https://bulma.io/documentation/components/navbar/
+
+  https://icons8.com/cssload/en/animated-text
+-->
