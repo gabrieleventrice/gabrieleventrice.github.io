@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "File",
+			"path": "..\\..\\..\\ventricegabriele.github.io\\File"
+		},
+		{
+			"name": "gabrieleventrice.github.io",
+			"path": ".."
+		},
+		{
+			"name": "en-US",
+			"path": "..\\..\\..\\ventricegabriele.github.io\\en-US"
+		},
+		{
+			"name": "Img",
+			"path": "..\\..\\..\\ventricegabriele.github.io\\Img"
+		},
+		{
+			"name": "it-IT",
+			"path": "..\\..\\..\\ventricegabriele.github.io\\it-IT"
+		},
+		{
+			"name": "css",
+			"path": "..\\..\\..\\ventricegabriele.github.io\\css"
+		}
+	],
+	"settings": {}
+}
