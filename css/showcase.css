@@ -403,6 +403,10 @@ p {
 .is-second {
   padding-left: 3.5rem;
 }
+.is-lefting
+{
+  padding-left: 37rem;
+}
 
 @media (max-width: 599px) {
   .main-content .section-color.services {
@@ -411,4 +415,9 @@ p {
     color: white;
     box-sizing: border-box;
   }
+
+  .is-lefting
+{
+  padding-left: 0rem;
+}
 }

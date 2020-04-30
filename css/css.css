@@ -1,0 +1,65 @@
+
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+.brightness:hover {
+    opacity: .66;
+}
+.description{
+    text-align: justify;
+    text-justify: inter-word;
+}
+a {
+color:black;
+}
+ul {
+    list-style-type: square;
+    padding-left: 15px;
+}
+.portfolioImg{
+    width: 30vh;
+    border-radius: 2%;
+}
+.text_centered{
+    text-align: center;
+}
+.fadeBottom {
+  white-space: nowrap;
+  overflow: hidden;
+  animation-duration: 1.5s;
+  animation-name: FadeBottom;
+}
+.fade{
+  animation-duration: 2s;
+  animation-name: Fade;
+}
+@keyframes FadeBottom {
+  from {
+    margin-top: 15%;
+    opacity: 0;
+    width: 1000%; 
+  }
+
+  to {
+    margin-left: 0%;
+    opacity: 1;
+    width: 100%;
+  }
+}
+
+@keyframes Fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

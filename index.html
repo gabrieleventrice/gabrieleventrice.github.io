@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gabriele Ventrice - Videogame Programmer Portfolio</title>
+    <title>Andre Francavilla - Videogame Programmer Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/js/bulma-extensions.min.js"></script>
     <link rel="stylesheet" href="./css/showcase.css">
+    <link rel="stylesheet" href="./css/css.css">
+    <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/js/bulma-extensions.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/css/bulma-extensions.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script>
@@ -37,7 +38,6 @@
     });
 
     </script>
-    <link rel="stylesheet" href="CSS.css">
     <style>
       .langFlag {
         display: block;
@@ -59,22 +59,26 @@
       {
         from
         {
-          border-radius: 0%;
+          max-width: 100%;
+          max-height: 100%;
         }
         to
         {
-          border-radius: 10%;
+          max-width: 90%;
+          max-height: 90%;
         }
       }
       @keyframes hoveringOut
       {
         from
         {
-          border-radius: 10%;
+          max-width: 90%;
+          max-height: 90%;
         }
         to
         {
-          border-radius: 1%;
+          max-width: 100%;
+          max-height: 100%;
         }
       }
       
@@ -83,36 +87,54 @@
 
   <body>
     <div>
-      <section class="hero-is-primary">
+      <section class="hero-is-primary-is-fullheight">
        <!-- Hero content: will be in the middle -->
         <div class="hero-body bd-main-container container">
          <div class="container center">
-        
+            <figure class="image portfolioImg fade">
+              <img class="portfolioImg" src="./Img/foooottt.png">
+            </figure>
          </div>
          <br>
          <div class="container has-text-centered fade">
-           <h1 class="title">
-             Gabriele Ventrice
-           </h1>
-           <h2 class="subtitle">
+           <h2 class="title" style="font-family: Kaushan Script, sans-serif;">
+             Gabriele ventrice
+           </h2>
+           <h2 class="subtitle profession">
              Videogame Programmer
            </h2>
          </div>
   
          <hr class="fade">
   
-         <div class="columns is-multiline" id="tecnicismi"> 
-            <div class="column is-6 right-image " data-aos="fade-right" style="padding: 10.75rem;"> 
-                <a href="./en-US/index.html">
-                    <img class="is-rounded" src="https://andrefrancavilla.github.io/en-US.png" alt=""/> 
-                </a>
-            </div>                         
-            <div class="column is-6 right-image " data-aos="fade-left" style="padding: 10.75rem;"> 
-                <a href="./it-IT/index.html">
-                    <img class="is-rounded" src="https://andrefrancavilla.github.io/it-IT.png" alt=""/> 
-                </a>
-            </div>                         
-                    
+         <div class="columns is-mobile">
+           <div class="column">
+              <a href="en-US/index.html">
+                <div class="brightness text_centered">
+                  <figure class="image is-2by1 fade">
+                    <img class="langFlag" src="./Img/en-US.png">
+                  </figure>
+                  <br>
+                  <div class="center">
+                    <h1 class="title fadeBottom">English (US)</h1>
+                  </div>
+                </div>
+              </a>
+           </div>
+           
+           <div class="is-divider-vertical fade"></div>
+           
+           <div class="column">
+              <a href="it-IT/index.html">
+                <div class="brightness text_centered">
+                  <figure class="image is-2by1 fade">
+                    <img class="langFlag" src="./Img/it-IT.png">
+                  </figure>
+                  <br>
+                  <div class="center">
+                    <h1 class="title fadeBottom">Italiano (IT)</h1>
+                  </div>
+                </div>
               </a>
             </div>         
          </div>
