@@ -236,7 +236,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-content .section-light.contact {
     padding: 60px 20px;
   }
@@ -408,7 +408,7 @@ p {
   padding-left: 37rem;
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-content .section-color.services {
     padding: 40px;
     background-color: rgb(6, 16, 44);
