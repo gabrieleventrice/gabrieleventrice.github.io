@@ -236,7 +236,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .main-content .section-light.contact {
     padding: 60px 20px;
   }
@@ -406,9 +406,9 @@ p {
 .is-lefting
 {
   padding-left: 37rem;
-}
+} 
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .main-content .section-color.services {
     padding: 40px;
     background-color: rgb(6, 16, 44);
@@ -419,5 +419,5 @@ p {
   .is-lefting
 {
   padding-left: 0rem;
-}
+} 
 }

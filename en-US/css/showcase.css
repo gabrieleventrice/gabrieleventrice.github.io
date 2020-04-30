@@ -62,7 +62,7 @@ html {
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 599px) {
   .hero .hero-foot {
     display: none;
   }
@@ -117,7 +117,7 @@ html {
   padding-top: 100px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 599px) {
   .main-content .section-dark.resume {
     padding-top: 75px;
   }
@@ -145,7 +145,7 @@ html {
   padding: 120px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 599px) {
   .main-content .section-dark.my-work {
     padding: 75px 20px;
   }
@@ -180,7 +180,7 @@ html {
   font-size: 1.2rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 599px) {
   .main-content .section-light.about-me .about-links {
     text-align: center;
   }
@@ -192,7 +192,7 @@ html {
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 599px) {
   .main-content .section-light.about-me .right-image img {
     margin: auto;
   }
@@ -204,7 +204,7 @@ html {
   color: black;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 599px) {
   .main-content .section-light.skills {
     padding: 50px 20px 40px 20px;
     padding-bottom: 20px;
@@ -236,7 +236,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .main-content .section-light.contact {
     padding: 60px 20px;
   }
@@ -406,9 +406,9 @@ p {
 .is-lefting
 {
   padding-left: 37rem;
-}
+} 
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .main-content .section-color.services {
     padding: 40px;
     background-color: rgb(6, 16, 44);
@@ -419,5 +419,5 @@ p {
   .is-lefting
 {
   padding-left: 0rem;
-}
+} 
 }
